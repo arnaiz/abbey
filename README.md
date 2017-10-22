@@ -8,9 +8,11 @@ I customize this simple and usable installation tin my personal laptop. Is a min
 To gain usability added an auto_login option with my username and password to the slim display manager. I consider users password its not neccesary since its a single user host and at boot sequence decrypt fs password its required.
 
 uname -a
+
 Linux abbey 4.9.0-3-amd64 #1 SMP Debian 4.9.30-2+deb9u5 (2017-09-19) x86_64 GNU/Linux
 
-cat /etc/debian_version 
+cat /etc/debian_version
+
 9.2
 
 abbey name its because of he https://en.wikipedia.org/wiki/Edward_Abbey
