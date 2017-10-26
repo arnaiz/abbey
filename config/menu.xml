@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Firefox">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="Image viewer">
+			<action name="Execute">
+				<execute>mirage</execute>
+			</action>
+		</item>
+		<item label="File manager">
+			<action name="Execute">
+				<execute>pcmanfm /home/oscar</execute>
+			</action>
+		</item>
+		<item label="GNU Emacs">
+			<action name="Execute">
+				<execute>emacs</execute>
+			</action>
+		</item>
+		<item label="Calculator">
+			<action name="Execute">
+				<execute>qalculate</execute>
+			</action>
+		</item>
+		<item label="Sakura">
+			<action name="Execute">
+				<execute>sakura</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-961148" label="Configuration">
+			<item label="Obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Tint2">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+			<item label="Aux terminal">
+				<action name="Execute">
+					<execute>rxvt</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="root-menu-711341" label="Session">
+			<item label="Reiniciar">
+				<action name="Execute">
+					<execute>/sbin/reboot</execute>
+				</action>
+			</item>
+			<item label="Apagar">
+				<action name="Execute">
+					<execute>/sbin/poweroff</execute>
+				</action>
+			</item>
+		</menu>
+		<!-- This requires the presence of the 'menu' package to work -->
+	</menu>
+</openbox_menu>
