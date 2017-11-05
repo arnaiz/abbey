@@ -73,5 +73,9 @@
     m:0x0 + c:246
     XF86WLAN 
 
+#find files
+"pcmanfm -f"
+    m:0x0 + c:76
+
 #
 # End of xbindkeys configuration
