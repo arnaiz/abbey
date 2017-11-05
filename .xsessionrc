@@ -1,2 +1,2 @@
 xmodmap ~/.xmodmaprc
-xbindkeys ~/.xbindkeys
+xbindkeys ~/.xbindkeysrc
