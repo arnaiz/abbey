@@ -63,19 +63,25 @@
     m:0x0 + c:67
     F1 
 
-#XF86creenshot
+#take a screenshot
 "scrot"
     m:0x0 + c:107
-    Print 
+    Control+Alt + Print 
 
 #Wifi
 "wicd-gtk -n"
-    m:0x0 + c:246
-    XF86WLAN 
+    m:0x0 + c:74
+    F8
 
-#find files
+#find diles
 "pcmanfm -f"
-    m:0x0 + c:76
+   m:0x0 + c:225
+   XF86Search
+
+#leave sesion
+"xscreensaver-command -lock"
+    m:0xc + c:46
+    Control+Alt + l 
 
 #
 # End of xbindkeys configuration
